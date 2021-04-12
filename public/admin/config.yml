@@ -33,9 +33,7 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "content/home.mdx"
-        extension: "mdx"
-        format: "frontmatter"
+        file: "home.json"
         fields:
           - label: "Slug"
             name: "slug"
