@@ -33,7 +33,7 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "home.json"
+        file: "content/home.mdx"
         fields:
           - label: "Slug"
             name: "slug"
