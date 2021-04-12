@@ -10,8 +10,7 @@ collections:
   - name: "features"
     label: "Features"
     folder: "content/features/"
-    extension: "mdx"
-    format: "frontmatter"
+    extension: "json"
     create: true
     slug: "{{slug}}"
     identifier_field: slug
@@ -25,15 +24,12 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-      - label: "Image"
-        name: "thumbnail"
-        widget: "image"
   - label: "Pages"
     name: "pages"
     files:
       - label: "Home Page"
         name: "home"
-        file: "content/home.md"
+        file: "content/home.json"
         fields:
           - label: "Slug"
             name: "slug"
